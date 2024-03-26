@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Albert Einstein</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">  
+        <!-- Arya Miteshbhai Patel; Student ID-8980267-->      
+    </head>
+    <body>
+        <header class="head">
+            <h1>Albert Einstein</h1>
+        </header>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="media.html">Media</a>
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/Albert_Einstein">Wikepedia</a></li>
+                        <li><a href="https://www.history.com/topics/inventions/albert-einstein">History</a></li>
+                        <li><a href="https://www.britannica.com/biography/Albert-Einstein">Britannica</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main class="contact">
+            <h2>Contact</h2>
+            <form>
+                <div>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" required autofocus>
+                </div>
+
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="date">Date Of Birth: </label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div>
+                    <label for="region">Which state do u live in ?</label>
+                    <select id="region" name="region" required>
+                        <option selected>Select Option</option>
+                        <option id="ontario">Ontario</option>
+                        <option id="alberta">Alberta</option>
+                        <option id="quebec">Quebec</option>
+                        <option id="manitoba">Manitoba</option>
+                    </select>
+                </div>
+                 
+                <div>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments" rows="4" required></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </main>
+        <footer class="foot">
+            <p>
+               &copy; Arya Patel - 2024
+            </p>
+        </footer>
+
+    </body>
+</html>

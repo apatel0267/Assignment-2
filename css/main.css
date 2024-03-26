@@ -1,0 +1,207 @@
+/*Arya Miteshbhai Patel & Student ID-8980267*/
+html{
+    font-size: 1rem;
+}
+body{
+    width: 1120px;
+    margin: 20px solid rgb(210, 28, 58);
+    text-align: center;
+    font-size:1rem;
+    font-family: serif;
+    padding: 20px;
+    border: 2px soid rgb(192, 37, 89);
+    border-radius: 10px;
+}
+
+header{
+    border: solid;
+    border-color: rgb(107, 4, 44);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin:10px;
+    background: linear-gradient(to bottom,rgb(236, 17, 116),rgb(218, 133, 157));
+
+}
+footer{
+    border: solid;
+    border-color: rgb(129, 4, 52);
+    border-radius: 10px;
+    padding: 0.8rem;
+    margin:5px;
+    background: linear-gradient(to bottom,rgb(236, 17, 116),rgb(218, 133, 157));
+    clear:both;
+}
+h1{
+    color: rgb(87, 10, 33);
+    font-variant: small-caps;
+}
+h2{
+    color:rgb(135, 8, 50);
+    font-variant: small-caps;
+}
+h3{
+    color:rgb(135, 8, 50);
+    font-variant: small-caps;
+}
+footer p{
+    font-size: 0.9em;
+    color: rgb(43, 6, 16);
+}
+
+main {
+    width: 800px; 
+    float: left; 
+}
+aside {
+    width: 300px; 
+    float: right;
+    background-image:url(https://wallpaperboat.com/wp-content/uploads/2020/05/albert-einstein-13.jpg);
+    background-size: cover;
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    filter:brightness(0.8);
+    margin: 10px;
+}
+.container:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.maining img{
+    border: solid;
+    border-width: 100%;
+}
+figcaption{
+    font-style: bold;
+    font-variant: small-caps;
+}
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+nav{
+    background-color: #a51a44; 
+    padding: 1rem 0; 
+    text-align: center; 
+}
+nav a{
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color: #9f0015; 
+    text-decoration: none; 
+    padding: 0 2rem;
+}
+ul li{
+    list-style: none;
+    line-height: 0.9;
+}
+li > a{
+    text-decoration-line: none;
+    color:rgb(253, 210, 232);
+}
+a:hover{
+    color: rgb(80, 3, 65);
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+nav ul{ 
+    list-style-type: none; 
+    padding: 1.5rem;
+    margin: 10px;
+}
+nav>ul>li{ 
+    display: inline-block; 
+    position: relative; 
+}
+nav ul li ul {
+    width: 250px;
+    position: absolute; 
+    text-align: left;
+    z-index: 999;
+    background-color: #58031a;
+    box-shadow: 0 0 5px #58031a;
+}
+nav ul li ul li a{ 
+    color: white;
+    padding: 1rem;
+    display: block; 
+}
+nav ul li ul li:hover a:hover{ 
+    color:rgb(131, 14, 36);
+    background-color: bisque;
+}
+nav ul li ul { 
+    display: none;
+}
+nav ul li:hover ul{
+    display: block; 
+}
+main.gallery{
+    width: 100%;
+}
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+form{
+    color: #58031a;
+    text-align: left;
+    border: 2px dashed rgb(116, 8, 75);
+    padding: 2rem;
+}
+input[type="text"], input[type="email"], select, option{
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+select, option, label, input[type="submit"]{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+textarea{
+    width: 50%;
+    display: block;
+}
+.contact{
+    margin: 5px;
+    border: 10%;
+    padding: 0.5rem;
+}
+input[type="submit"]{
+    width: 35%;
+    display: block;
+    height: 2em; 
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ad194f;
+    padding: 0.6rem;
+    text-align: left;
+}
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+    .container {
+        width: 90%; 
+    }
+    aside {
+        background-image: url('https://wallpaperboat.com/wp-content/uploads/2020/05/albert-einstein-13.jpg');
+    }
+}
+@media screen and (min-width: 601px) {
+    aside {
+        background-image: url('https://wallpaperboat.com/wp-content/uploads/2020/05/albert-einstein-13.jpg'); 
+    }
+}
